@@ -1,0 +1,28 @@
+header.masthead{
+	background-image: url('../img/header.jpeg');
+}
+.text-bold{
+	font-weight: bold;
+}
+.testimonials, .call-to-action {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+@media(min-width: 576px) and (max-width: 767px){
+	.screen-adj{
+		display: none!important;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.pad-left-270{
+		padding-left: 270px;
+	}
+}
+@media(min-width: 576px) and (max-width: 767px){
+	.pad-left-180{
+		padding-left: 180px;
+	}
+}
+body{
+	font-family: 'Ubuntu', sans-serif!important;
+}
